@@ -93,7 +93,7 @@ body {
     justify-content: center;
     gap: 30px;
     font-size: 25px;
-    
+
 }
 
 .options__e1:hover,
@@ -257,7 +257,12 @@ body {
 .intrests h4{
     margin-top: 10px;
     margin-bottom: 5px;
-    text-align: center;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 60px;
+    margin-left: 8px;
+    font-size: 25px;
 }
 
 .review__text{
@@ -585,4 +590,15 @@ hr {
 
 .banner{
     margin-bottom: 50px;
+}
+
+.banner__text{
+    font-size: 30px;
+    font-family: "PT Sans", sans-serif;
+    color: whitesmoke;
+    font-style: normal;
+    justify-content: center;
+    position: relative;
+    bottom: 405px;
+    text-align: center;
 }
